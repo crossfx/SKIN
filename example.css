@@ -1,8 +1,26 @@
-@keyframes colorhue{
-    from {-webkit-filter: hue-rotate(0deg); filter: hue-rotate(0deg);}
-    to {-webkit-filter: hue-rotate(359deg); filter: hue-rotate(359deg);}
+.edit .controller.ds4 {
+    background: url(https://schoettner.github.io/skins/base-custom.png);
 }
 
-.edit {
-    animation: colorhue 1s linear infinite;
+
+.controller.edit {
+    background: url(https://schoettner.github.io/skins/base-custom.png);
 }
+
+
+.edit .face .ds4 {
+    background: url(https://schoettner.github.io/skins/dpad-custom.png);
+}
+
+
+.edit .stick .ds4 {
+    background: url(https://schoettner.github.io/skins/sticks-custom.png);
+}
+
+
+.edit .stick {
+    position: absolute;
+    background: url(https://schoettner.github.io/skins/sticks-custom.png);
+}
+
+
